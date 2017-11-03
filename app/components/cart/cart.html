@@ -1,0 +1,7 @@
+<div ng-repeat="item in cart.cart">
+    <product product="item.product" button-label="Remove Item" button-action="removeItem(item)" ></product>
+    <input ng-model="item.amount" type="0" min="0">
+</div>
+<h1>
+    Total: {{cart.getTotal() | currency}}
+</h1>

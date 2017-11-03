@@ -3,7 +3,7 @@ angular.module('ecommerce').controller('componentsCtrl', function($scope){
 
   $scope.testProduct = {name:'Space Fruit',
     imageUrl:'https://ctl.s6img.com/society6/img/TtK7KWlA4hPvW98_g3IMjwK5vXc/h_550,w_550/tshirts/men/greybg/black/~artwork,bg_FFFFFFFF/s6-0025/a/11385279_14899658/~~/lunar-fruit-tshirts.jpg',
-    description:'The best sliced space sliced fruit around.',
+    description:'The best sliced space fruit around.',
     price:7.50
   };
 
@@ -21,7 +21,7 @@ angular.module('ecommerce').controller('componentsCtrl', function($scope){
     price:10.00
   },{name:'Space Fruit',
     imageUrl:'https://ctl.s6img.com/society6/img/TtK7KWlA4hPvW98_g3IMjwK5vXc/h_550,w_550/tshirts/men/greybg/black/~artwork,bg_FFFFFFFF/s6-0025/a/11385279_14899658/~~/lunar-fruit-tshirts.jpg',
-    description:'The best sliced space sliced fruit around.',
+    description:'The best sliced space fruit around.',
     price:7.50
   },{name:'Polo',
     imageUrl:'http://nba.frgimages.com/FFImage/thumb.aspx?i=/productImages/_2654000/ff_2654848a_full.jpg&w=340',
